@@ -1,7 +1,7 @@
 /*--------head------------*/
 .head {
   padding: 20px 0;
-  color: green;
+  color: #fff;
 }
 .logo h1 {
   font-size: 35px;
@@ -22,11 +22,11 @@ header .nav {
 header li {
   margin-right: 40px;
 }
-header ul {
-  padding: 30px 20px;
-}
+/* header ul {
+  padding: 90px  0px;
+} */
 header ul li a {
-  color: #c52b2b;
+  color: #fff;
   font-weight: 500;
   transition: 0.5s;
 }
