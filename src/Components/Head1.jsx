@@ -2,6 +2,7 @@ import React from 'react'
 
 const Head1 = () => {
   return (
+    <>
     <div>
         <section className='head'>
         <div className="container flexSB">
@@ -18,7 +19,7 @@ const Head1 = () => {
         </div>
         </section>
     </div>
-    
+    </>
    
   )
 }

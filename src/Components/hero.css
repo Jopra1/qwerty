@@ -1,5 +1,6 @@
 .hero {
     background-image: url('https://images.pexels.com/photos/3747488/pexels-photo-3747488.jpeg');
+    /* background-image: url('https://images.pexels.com/photos/6956812/pexels-photo-6956812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -15,6 +16,7 @@
 
 .hero button{
   margin: 10px;
+  color: brown;
 }
 
 .hero #heading h3 {
@@ -25,25 +27,3 @@
     margin: 0;
     padding: 0;
   }
-
-  @media screen and (max-width: 768px) {
-    /* .margin {
-      height: 40vh;
-    } */
-    /* .hero {
-      background-position: right;
-      padding-top: 5%;
-      height: 8vh;
-    } */
-    /* .hero .row {
-      width: 100%;
-    } */
-  }
-  .row
-  {
-    width:50%;
-  }
-
-button{
-  color:brown
-}

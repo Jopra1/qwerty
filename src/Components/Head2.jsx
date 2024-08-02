@@ -16,7 +16,7 @@ const Head2 = () => {
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/courses">Courses</Link></li>
-                <li><Link to ="/signup">Sign Up</Link></li>
+                <li><Link to ="/signup">Sign Up/Sign In</Link></li>
                 <li><Link to = "/about">About Us</Link></li>
             </ul>
         </nav>
