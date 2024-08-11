@@ -6,6 +6,7 @@ import Home from './Components/Home'
 import About from './Components/About/About'
 import SignUp from './Components/SignUp'
 import CourseHome from './Components/allcourses/CourseHome'
+import './Components/allcourses/courses.css';
 
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
 

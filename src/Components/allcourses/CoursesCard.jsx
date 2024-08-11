@@ -1,11 +1,12 @@
 import React from 'react';
 import "./courses.css";
+
 import { coursesCard as coursesData } from "../../dummydata";
 
 const CoursesCard = () => {
   return (
     <>
-      <section className="courseCard">
+      <section className="coursesCard">
         <div className="container grid2">
           {coursesData.map((val, index) => (
             <div className="items" key={index}>
@@ -48,6 +49,7 @@ const CoursesCard = () => {
         </div>
       </section>
     </>
+  
   );
 };
 

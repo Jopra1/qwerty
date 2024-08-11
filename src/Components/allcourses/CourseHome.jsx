@@ -2,6 +2,7 @@ import React from 'react';
 import CoursesCard from './CoursesCard';
 import OnlineCourses from './OnlineCourses';
 import Back from '../common/Back';
+import './courses.css';
 
 const onlineCoursesData = [
   {
@@ -11,7 +12,7 @@ const onlineCoursesData = [
     courseName: 'Course 1',
     course: 'Description of Course 1'
   },
-  // Add more course data here
+
 ];
 
 const CourseHome = () => {
